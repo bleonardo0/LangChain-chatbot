@@ -1,0 +1,421 @@
+Introduction to MadKudu
+Margo Rey
+How it works
+MadKudu Copilot
+MadKudu Scoring
+F.A.Q 
+How does MadKudu look like once implemented?
+How do I start sending data?
+Glossary
+MadKudu translates signals into actions for your Sellers
+
+
+Madkudu's platform allows you to:
+
+send your sellers the right accounts and leads with AI scoring
+give your sellers playbooks that work, based on 1st party and 3rd party signals 
+provider your sellers with the right context to engage with prospects effectively 
+How it works
+
+Plug in your data tech stack.
+Install the MadKudu package in Salesforce and download the Chrome extension
+Tweak your mappings and scoring models 
+Enable your sellers
+mceclip1.png
+
+MadKudu ingests multiple sources of data to help you qualify your prospects and arm your sellers to engage with them
+
+Static enrichment: MadKudu partners with Clearbit, HG data, and PredictLeads to enrich your data. Are you already purchasing through ZoomInfo, Bombora, Datafox? No problem, MadKudu can also use this data. 
+CRM information: actually any data from your CRM (Leads, Contacts, Accounts, Opportunities), be it provided by a 3rd party or from your Marketing and Sales input, can be pulled to MadKudu's platform. 
+Product usage: Are you tracking your visitor and user behavior in your product? MadKudu has integrations for it as well to help you surface your most engaged users
+Marketing interactions: Your demand gen team is working hard on organizing webinars, events, and email campaigns to engage with prospects, and you are tracking these interactions in Marketo, Eloqua, HubSpot. Well, bring them into your scoring to add up to your product usage data and find your MQL/PQLs! 
+MadKudu Copilot
+
+Available directly embedded Salesforce, in our Chrome extension and soon in your favorite Sales Engagement (Gong Engage, Outreach, Salesloft..) 
+
+Playbooks & Explore: Assist sales reps in tailoring their approach based on prospects' activities and intent signals. With the Playbooks inbox, they stay focused on the best approach for their prospects. With Explore they can slice and dice their prospects based on different filters and save reports. Learn more
+Account & Lead Intelligence: Surface information your Sales team needs when engaging with prospects, directly in Salesforce. Learn more.
+MadKudu Scoring
+
+With MadKudu, qualify your prospects to send to Sales with AI scoring and directly in your CRM. 
+
+MadKudu ingests as much data as possible to predict the likelihood of a prospect to convert into a customer.
+
+Get full control of your scoring in the Data Studio, with insights on your Ideal Customer Profile and most important actions your prospects are taking. Learn more.
+
+MadKudu offers several models that fit different needs:
+
+Customer Fit: Looks at firmographics, demographics and technographic data to identify who from your Leads and Accounts are most likely to convert (Who is this person? Is the company they work for a good fit?)
+Likelihood to Buy: Looks at any interaction with your website, product, marketing team, sales team to identify patterns of your Leads and Accounts behaviors that lead to conversions. (What has this lead been doing recently?)
+Lead Grade: Combines the Customer Fit and Likelihood to Buy into one score to help you simplify your workflows
+mceclip0.png
+
+We configure these models independently so if you’re not sure which ones are enabled in your account, reach out to your Customer Success Manager.
+
+F.A.Q 
+
+How does MadKudu look like once implemented?
+
+Just follow this link and you'll see!
+
+How do I start sending data?
+
+We have dozens of integrations with best-in class systems like Segment, Salesforce, Hubspot, Marketo, Snowflake, BigQuery...etc. You can enable these by the click of a button. Learn more about our integrations 
+
+Start by creating an account at app.madkudu.com
+Once logged in, the left navigation menu, click on the Integrations icon. The next screen will show you a list of all available integrations. To enable one, click on it and follow the instructions.
+Glossary
+
+Here's a guide to MadKudu's lingo. 
+
+Was this article helpful? 3 out of 3 found this helpful
+Have more questions? Submit a request
+Return to top
+Related articles
+
+How Marketing Uses MadKudu
+Batch versus Real time scoring in your integrations
+Customer Fit model
+What are the different scores?
+Event mapping
+
+How Marketing Uses MadKudu
+Conaill Gunn
+The Marketer’s Dilemma
+The Madkudu Way
+Why is this relevant?
+This article is intended to be used by the marketer who wants to see the quality of their inbound leads by channel and by campaign.  (Report implementation instructions are available to download, see link at bottom of this article).
+
+The Marketer’s Dilemma
+
+Potentially Burning Marketing Budget
+
+“I spend on an acquisition channel, but it takes the length of the sales cycle to see if the channel is valuable enough to keep investing in.”
+
+Screen_Shot_2020-05-19_at_11.54.42_AM.png
+
+The Madkudu Way
+
+Smart Insights, Less Waiting, Accurate Decisions
+
+“Accurately assess the performance of acquisition channels quickly”
+
+mceclip0.png
+
+Why is this relevant?
+
+Use your MadKudu Customer Fit score to assess the quality of leads per channel and adjust spend accordingly
+
+Your Madkudu customer fit score is an indicator of your expected pipeline. Use it to determine the quality per channel and optimize your marketing spend per channel.
+
+Generating high quality leads that aren’t converting?  Use this as an input to nurture your campaigns and walk those valuable leads further down the funnel.
+
+Bet big on the channels that drive quality leads, stop wasting money on channels that don’t.
+
+ Screen_Shot_2020-04-28_at_2.07.10_PM.png
+
+Assessing Response Quality By Channel
+
+Discriminate between channels generating mostly low (Free Rates) vs mostly high (Whitepaper) quality leads.
+
+Screen_Shot_2020-03-23_at_3.25.07_PM.png
+
+Compare volumes and cost of acquisition to determine whether it makes sense to move your marketing budget from one channel to another. If the cost of acquisition for a quality lead from Free Rates happens to be 10X less that the cost of acquisition for Whitepaper - then it would make sense to generate those Free Rate quality leads, and nurture them.
+
+Response Quality By Channel Over Time
+
+As Marketers, we want to understand if the quality of leads per channel evolves over time.  In this example, we see that the volume of quality leads maintains, and even increases slightly.
+
+Screen_Shot_2020-03-23_at_3.27.54_PM.pngTherefore we would expect to see performance increase marginally (increase of leads to closed won by this channel).  If we allocate additional budget spend to this channel, we would also want to see an increase in the lead to deal ratio. 
+
+In this next example, we see that the volume of quality leads drastically decreases.
+
+Screen_Shot_2020-03-23_at_3.30.16_PM.png
+
+However, the revenue generated by the channel may still remain consistent, if the number of quality leads is maintained.  If we spend more on this channel, and there is no increase in quality leads which convert to deals, we will reduce the ROI for this channel, despite the revenue remaining the same.
+
+Ready to generate these insights yourself?  Download our step by step guide.
+
+How Marketing Uses MadKudu - Report Implementation.pdf
+Was this article helpful? 1 out of 1 found this helpful
+Have more questions? Submit a request
+Return to top
+Recently viewed articles
+
+Introduction to MadKudu
+Related articles
+
+How to create a conversion report for existing customers by MK segment in Salesforce?
+Salesforce
+Understanding how MadKudu tracks conversions in the Customer Fit Diagnostics page
+During implementation, how much data is used and how many leads get scored?
+Intercom
+
+Introduction to MadKudu Copilot
+Margo Rey
+What is MadKudu Copilot
+Who has access
+How to enable MadKudu Copilot in Salesforce
+What is MadKudu Copilot
+
+MadKudu Copilot helps SDRs, BDRs, and AEs research accounts faster by gathering all of the information they need directly in Salesforce. It allows them to answer questions such as :
+
+Which Accounts or Contacts should I prioritize today? 
+Who is engaged in the account?
+What features have people been interacting with?
+What content have they looked at?
+Who is the buyer in the account? 
+MadKudu Copilot includes 
+
+Playbooks and Explore 
+Account & Contact Intelligence
+Who has access
+
+MadKudu Copilot is available to customers with a Pro or Enterprise MadKudu subscription and who are using Salesforce CRM. 
+
+How to enable MadKudu Copilot in Salesforce
+
+Download the Chrome Extension: follow the instructions on the Chrome Store
+Available to use from Salesforce, Outreach and Gong 
+Install MadKudu Copilot in Salesforce in a few click Please follow the installation guide.
+(Coming Soon: Install MadKudu Copilot in Gong Engage or in Outreach) 
+Invite your Sales team 
+Was this article helpful? 0 out of 0 found this helpful
+Have more questions? Submit a request
+Return to top
+Recently viewed articles
+
+How Marketing Uses MadKudu
+Introduction to MadKudu
+Related articles
+
+Installing MadKudu Sales Intelligence in Salesforce
+How to make newly mapped events appear in the Data Studio Event Weights tab?
+Salesforce
+Amazon S3
+MadKudu Account Likelihood to Buy upgrade on Friday, June 3 2022
+
+Admin & AI Scoring
+
+Score Lookup
+Margo Rey
+Benefits of Score Lookup
+How to use the Score lookup? 
+FAQ
+Why does the score here differ from the score I see in my CRM?
+The Score Lookup tool is your secret weapon to easily answer the "Why was this lead scored this way?" 
+
+Benefits of Score Lookup
+
+Improved transparency: with the Score Lookup, you have full visibility into how the Customer Fit score is calculated for any given lead and the factors that contribute to them. This allows you to identify any gaps or changes to make in your model or data sources. No blackbox! 
+
+Build trust with your Sales team: by providing Sales or Marketing with clear and concise explanations for scores, you'll be able to create trust in your scoring.
+
+How to use the Score lookup? 
+
+Log into your MadKudu account app.madkudu.com
+Click on Score Lookup on the left navigation bar
+Enter any email in the search bar and click  View score
+GIF_score_lookup.gif
+
+You'll then see the following sections:
+
+Score result: view the score and the signals returned by any of your Customer Fit models deployed 
+
+
+Score explanation: identify why a lead is scored this way, so you can provide Sales teams with clear and concise explanations for why certain leads are prioritized or not. 
+
+Score breakdown: the Score Lookup provides a clear breakdown of the score calculation steps, so you can see exactly how each lead is scored, based on your historical data and your business override rules. 
+Enrichment: view which enrichment data points are used to score a lead, and where they come from, whether it's from MadKudu's enrichment partners or your CRM. This provides an added layer of transparency and allows you to verify the reliability of your data sources.
+
+FAQ
+
+Why does the score here differ from the score I see in my CRM?
+
+This is because the profiles page displays the customer fit score and signals returned by MadKudu API, which is the same as the realtime scoring in your integration. If you have a batch model for your Customer Fit model, this means you are probably using enrichment from your CRM which can only be leveraged in batch scoring. To read more about batch and realtime scoring, see more here.
+
+Was this article helpful? 1 out of 1 found this helpful
+Have more questions? Submit a request
+Return to top
+Recently viewed articles
+
+Introduction to MadKudu Copilot
+How Marketing Uses MadKudu
+Introduction to MadKudu
+Related articles
+
+How to read the Processes page? How long does it take for MadKudu to score my leads and accounts?
+Installing MadKudu Sales Intelligence in Salesforce
+Introduction to MadKudu Copilot
+What is a Mapping?
+Troubleshooting: Login issues on Madkudu Admin (MK app or studio)
+
+How To's
+
+How to use Common Room data in MadKudu?
+Margo Rey
+Pre-requisites
+Step 1: Send Common Room data to MadKudu
+Option 1: via S3 
+Option 2: via Snowflake or BigQuery
+Step 2: Map Common Room data in MadKudu
+Step 3: Create playbooks for your reps
+Common Room is a great tool to track your prospects' interactions with your community assets (Slack, Discourse,...), social media (LinkedIn, Youtube, X ....) or open-source products (Github..). You can include this in your MadKudu scoring and in MadKudu Copilot for your reps. For example,  creating playbooks for your reps to reach out to new LinkedIn followers, github comments...etc. Here's how to!
+
+Pre-requisites
+
+You have a Common Room account and implemented it
+You have requested Common Room to share your data in a S3 bucket
+or You are sending Common Room data to your Snowflake or BigQuery instance
+Step 1: Send Common Room data to MadKudu
+
+Option 1: via S3 
+
+Grant MadKudu access to the S3 bucket with an IAM role
+
+Use MadKudu's instructions here to grant MadKudu access to your S3 bucket via an IAM role 
+
+Once set up, MadKudu will start pulling data from your S3 bucket 
+
+Option 2: via Snowflake or BigQuery
+
+Common Room data would fall into the Event type of data. Please follow these instructions to connect Snowflake or BigQuery to MadKudu 
+
+How to send BigQuery data to MadKudu
+How to send Snowflake data to MadKudu
+Step 2: Map Common Room data in MadKudu
+
+In MadKudu Admin console, in Mappings > Event mapping, map the Common Room events from S3, Snowflake or Bigquery you connected in step 1. 
+
+
+
+Step 3: Create playbooks for your reps
+
+Let's take the example of a playbook for reps to automatically connect on Linkedin with qualified slack community users. 
+
+In MadKudu Copilot (embedded in your Salesforce or the Chrome extension), 
+
+In the left nav bar click on +New playbook
+Use the AI prompt to generate playbook with "Qualified people who join slack community", or configure manually with the following filters: 
+person activity event is New Slack User AND person customer fit is one of very good, good
+
+Select an Outreach or Salesloft sequence that automatically sends a connect request to prospects
+Share with your organization and create!
+Your reps can start connecting with new qualified Slack community users in a click without leaving Salesforce! 
+
+
+
+Was this article helpful? 0 out of 0 found this helpful
+Have more questions? Submit a request
+Return to top
+Recently viewed articles
+
+Score Lookup
+Introduction to MadKudu Copilot
+How Marketing Uses MadKudu
+Introduction to MadKudu
+Related articles
+
+How to score a Target Account List with MadKudu through Zapier?
+Introduction to MadKudu
+Definitions of standard computations
+Gong Engage
+Sales Alerts become Sales Playbooks on March 4, 2024
+
+Security
+
+How do I perform GDPR-compliant requests in MadKudu?
+Rafikah Halim
+How to make GDPR requests
+Get records deleted via CSV upload in MadKudu App
+Get records deleted via MadKudu GDPR deleted
+For other types of requests
+Under the General Data Protection Regulation (GDPR), an individual saved as a contact in MadKudu contacts database has the right to request for certain actions to be performed on the personal data you have about them. To keep to our commitment to GDPR readiness, we offer the ability to:
+
+Delete records: The GDPR requires permanent deletion of their contact record from your database, including email history, form submissions, and other engagement data and activity. This includes removing all data keyed by that email address from all storage mediums that don’t automatically expire data within 30 days. This includes archives, databases, and staging environments.
+Modify incorrect or inaccurate data: The GDPR empowers individuals to correct any personal data that is deemed inaccurate or incomplete. In MadKudu, if the end-user asks you to change her information, we can do so from within her contact record.
+Retrieve user-specific data: Under the GDPR, end users have a right to access their personal data and are entitled to obtain their personal data in a commonly used, structured format, such as a CSV file.
+Requests are typically responded to within 30 days.
+
+How to make GDPR requests
+
+Get records deleted via CSV upload in MadKudu App
+
+Pre-requisites
+
+You are a customer of MadKudu
+Have the Admin rights to the MadKudu app
+Step by Step
+
+Log in to the MadKudu app
+Go to the Settings > GDPR. This section will only be visible if you have sufficient Admin access rights.
+Screen_Shot_2022-09-22_at_1.22.56_PM.png
+
+Upload a CSV of the emails you would like to delete from the MadKudu database. Your file should have a CSV extension.
+mceclip0.png
+
+Click "Delete Records" in the pop-up to validate the operation.
+Once your file has been processed, you will receive an email informing you of the correct deletion of the records from the MadKudu database.
+*Please note: Once the email is deleted, this cannot be undone.*
+
+Get records deleted via MadKudu GDPR deleted
+
+To use MadKudu GDPR, start by authenticating with your API key located in your account. Go to Settings > Integrations > API 
+Use this API doc for authentication instructions: https://developers.madkudu.com/#introduction
+
+Screenshot_2023-03-10_at_3.42.04_PM.png
+
+The API offers 2 options: sending a CSV file or an array of emails.
+
+Option 1: CSV file
+
+API Endpoint: https://api.madkudu.com/v1/gdpr/file -> Submit a csv file containing emails, using the csv file format suggested above.
+
+Example using cURL:
+
+curl --location --request POST '<https://api.madkudu.com/v1/gdpr/file>' \\
+-header 'Authorization: <BASIC_TOKEN>' \\
+-form 'csv_file=@"/Users/user/Desktop/gdpr_csv_test.csv"'
+Option 2: Array of emails
+
+API Endpoint: https://api.madkudu.com/v1/gdpr/array -> Submit an array of emails in json format.
+
+Example using cURL:
+
+curl --location --request POST '<https://api.madkudu.com/v1/gdpr/array>' \\
+-header 'Authorization: <BASIC_TOKEN>' \\
+-header 'Content-Type: application/json' \\
+-data-raw '["test+1@madkudu.com","test+2@madkudu.com"]'
+Expected responses:
+
+202 Accepted 400 Bad Request
+
+For other types of requests
+
+For requests other than record deletion, you can use our online form -> MadKudu’s data privacy management form.
+
+Screen_Shot_2022-01-11_at_9.21.41_AM.png
+At this form:
+
+Enter your email address with a valid company domain.
+Enter the email address of the contact record you would like to perform the request on.
+Select the appropriate GDPR-compliant action you would like to perform on the selected personal record.
+For requests to Modify, enter a description on what needs to be changed.
+Then, click Submit Request.
+Was this article helpful? 0 out of 0 found this helpful
+Have more questions? Submit a request
+Return to top
+Recently viewed articles
+
+How to use Common Room data in MadKudu?
+Score Lookup
+Introduction to MadKudu Copilot
+How Marketing Uses MadKudu
+Introduction to MadKudu
+Related articles
+
+How do I ensure my MadKudu Fastlane-powered forms are GDPR-compliant?
+What tracker and cookies does MadKudu installs on your browser?
+Installing MadKudu Sales Intelligence in Salesforce
+MadKudu Account Likelihood to Buy upgrade on Friday, June 3 2022
+MadKudu Glossary
